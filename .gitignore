@@ -1,0 +1,9 @@
+*.key
+*.pem
+private/
+index.txt*
+serial*
+*.old
+*.attr*
+.DS_Store
+Thumbs.db
