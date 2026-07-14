@@ -1,14 +1,14 @@
 # Mini PKI Lab
 
 ## Overview
-1-2 sentences: what this project does and why you built it 
-(e.g. "Built to apply PKI concepts from CompTIA Security+ in a hands-on environment")
+This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to apply knowledge from Topic 1 of CompTIA Security+. The project demonstrates the construction of a root Certificate Authority(CA), an intermediate CA, key pairs, and signed certificates.
 
 ## What I Learned / Concepts Demonstrated
-- Asymmetric cryptography (public/private key pairs)
+- Asymmetric encryption (public/private key pairs)
 - Certificate chain of trust (root CA → intermediate CA → server cert)
 - X.509 certificate structure
 - HTTPS/TLS deployment
+- Basic bash/shell commands
 
 ## Architecture
 [Simple diagram: Root CA -> Intermediate CA -> Server Cert -> HTTPS server]
