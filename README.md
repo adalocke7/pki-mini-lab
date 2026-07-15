@@ -23,7 +23,7 @@ This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to 
 5. Deployed cert on Nginx for local HTTPS
 
 ## Commands Used
-(brief, annotated — not just a wall of commands)
+openssl genrsa ... - The openssl command used to generate the private keys for the root CA and intermediate CA.
 
 ## Challenges / Troubleshooting
 Troubleshot the Linux system and commands due to Linux being a new system and having no prior knowledge of Linux operations.
