@@ -37,4 +37,7 @@ File directory and pathway setup
 Creating and editing the CA config file
 <img width="953" height="1040" alt="image" src="https://github.com/user-attachments/assets/bb25e917-983e-4ab9-b1f6-52af6725ff2d" />
 
+Creating the private key and certificate for the intermediate CA
+<img width="933" height="557" alt="image" src="https://github.com/user-attachments/assets/2e02fbca-b579-4d9f-bce8-ee3755df184d" />
+
 
