@@ -29,4 +29,10 @@ This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to 
 Troubleshot the Linux system and commands due to Linux being a new system and having no prior knowledge of Linux operations.
 
 ## Screenshots
-(browser showing the cert chain, terminal output, etc.)
+File directory and pathway setup
+<img width="576" height="42" alt="image" src="https://github.com/user-attachments/assets/9722cf8f-ca4d-42e5-8179-35e6ec9398b6" />
+
+Creating and editing the CA config file
+<img width="953" height="1040" alt="image" src="https://github.com/user-attachments/assets/bb25e917-983e-4ab9-b1f6-52af6725ff2d" />
+
+
