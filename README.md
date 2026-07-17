@@ -40,4 +40,12 @@ Creating and editing the CA config file
 Creating the private key and a certificate signing request for the intermediate CA
 <img width="933" height="557" alt="image" src="https://github.com/user-attachments/assets/2e02fbca-b579-4d9f-bce8-ee3755df184d" />
 
+Signing the intermediate CA with the root CA
+<img width="1919" height="533" alt="image" src="https://github.com/user-attachments/assets/082f914c-4d82-441d-8210-bf8f254d1534" />
+
+Verifying the intermediate CA signiture matches with the root CA
+<img width="1281" height="34" alt="image" src="https://github.com/user-attachments/assets/3d599a4d-8777-4789-aa72-1f15aa2e4960" />
+
+
+
 
