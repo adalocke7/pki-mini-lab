@@ -54,6 +54,10 @@ Creating and signing a server certificate with the intermediate CA
 Verifying the Nginx localhost server, which verifies the certificate chain of trust.
 <img width="989" height="883" alt="image" src="https://github.com/user-attachments/assets/2742dcae-064f-4792-995f-3ee8dcae432d" />
 
+Fully deployed Nginx server on Chrome with valid and accepted certification
+<img width="1503" height="936" alt="image" src="https://github.com/user-attachments/assets/2798ba89-abc9-47cc-b0c1-858e4be284fa" />
+
+
 
 
 
