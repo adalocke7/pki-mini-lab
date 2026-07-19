@@ -30,6 +30,7 @@ This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to 
 ## Challenges / Troubleshooting
 Troubleshot the Linux system and commands due to Linux being a new system and having no prior knowledge of Linux operations.
 Troubleshot setting up the Nginx server to deploy a server certificate.
+Troubleshot the Chrome error of not secure when the server was deployed.
 
 ## Screenshots
 File directory and pathway setup
