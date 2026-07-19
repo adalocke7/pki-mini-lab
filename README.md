@@ -50,6 +50,10 @@ Verifying the intermediate CA signiture matches with the root CA
 Creating and signing a server certificate with the intermediate CA
 <img width="1912" height="632" alt="image" src="https://github.com/user-attachments/assets/150f6091-0208-49e0-b00b-84ed83b505bf" />
 
+Verifying the Nginx localhost server, which verifies the certificate chain of trust.
+<img width="989" height="883" alt="image" src="https://github.com/user-attachments/assets/2742dcae-064f-4792-995f-3ee8dcae432d" />
+
+
 
 
 
