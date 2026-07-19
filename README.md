@@ -46,6 +46,10 @@ Signing the intermediate CA with the root CA
 Verifying the intermediate CA signiture matches with the root CA
 <img width="1281" height="34" alt="image" src="https://github.com/user-attachments/assets/3d599a4d-8777-4789-aa72-1f15aa2e4960" />
 
+Creating and signing a server certificate with the intermediate CA
+<img width="1912" height="632" alt="image" src="https://github.com/user-attachments/assets/150f6091-0208-49e0-b00b-84ed83b505bf" />
+
+
 
 
 
