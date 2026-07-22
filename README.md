@@ -1,7 +1,7 @@
 # Mini PKI Lab
 
 ## Overview
-This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to apply knowledge from Topic 1 of CompTIA Security+. The project demonstrates the construction of a root Certificate Authority(CA), an intermediate CA, key pairs, and signed certificates resulting in a browser-trusted HTTPS server with a valid signed certificate from the intermediate CA.
+This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to apply knowledge from Topic 1 of CompTIA Security+. The project demonstrates the construction of a root Certificate Authority(CA), an intermediate CA, key pairs, and signed certificates, resulting in a browser-trusted HTTPS server with a valid signed certificate from the intermediate CA.
 
 ## What I Learned / Concepts Demonstrated
 - Asymmetric encryption (public/private key pairs)
@@ -31,7 +31,7 @@ This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to 
 ## Challenges / Troubleshooting
 - Config path mismatch and duplicate: Both Root and intermediate OpenSSL.cnf still referenced the default '/root/ca' path, which caused "could not open file" errors. This was fixed by updating the 'dir =' to the full project path. Additionally, even after changing the directory path, it still caused the same error due to having the same CA_default pasted twice, which was quickly fixed by deleting the duplicate config.
 
-- Chrome "Not Secure" despite trusted root CA: The certificate for the server showed a valid chain, but Chrome still flagged it as "Not Secure". After troubleshooting by looking at both Windows and Chrome's Trusted Certification files, the root cause was modern browsers requiring a Subject Alternative Name (SAN) extension that explicitly lists the hostname, as just a CN field was not adequate anymore for trusted certificates. Fixed by adding a subjectAltName extension to the server cert configuration and reissuing the certificate.
+- Chrome "Not Secure" despite trusted root CA: The certificate for the server showed a valid chain, but Chrome still flagged it as "Not Secure". After troubleshooting by looking at both Windows and Chrome's Trusted Certification files, the root cause was modern browsers requiring a Subject Alternative Name (SAN) extension that explicitly lists the hostname, as just a Common Name (CN) field was not adequate anymore for trusted certificates. Fixed by adding a subjectAltName extension to the server cert configuration and reissuing the certificate.
 
 - Duplicate certificate subject error: Reissuing the server cert with an updated SAN fix caused an error because OpenSSL's CA rejected a second certificate that had an identical subject by default. Fixed by setting 'unique_subject = no' in the intermediate CA's index.txt.attr file and adding it to the intermediate openssl.cnf config.
 
