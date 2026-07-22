@@ -13,8 +13,7 @@ This mini project is a home lab Public Key Infrastructure(PKI) using OpenSSL to 
 - Nginx server configuration and TLS deployment
 
 ## Architecture
-[Simple diagram: Root CA -> Intermediate CA -> Server Cert -> HTTPS server]
-(Even a basic diagram made in draw.io or excalidraw helps a lot visually)
+<img width="380" height="669" alt="image" src="https://github.com/user-attachments/assets/ceaa8cac-296f-4dfc-8abf-3038805604a4" />
 
 ## Steps Taken
 1. Generated root CA key and self-signed cert
